@@ -1,7 +1,6 @@
 # App Store Connect APIs
 
 In this project I explore some of the APIs that are useful to automate some of the tasks that I perform regularly on App Store Connect. 
-# App Store Connect APIs
 
 ### Get App Information
 `curl -v -H 'Authorization: Bearer YOUR_TOKEN' "https://api.appstoreconnect.apple.com/v1/apps?filter[id]=YOUR_APP_ID"`
