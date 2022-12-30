@@ -21,6 +21,7 @@ const csvWriter = createCsvWriter({
 
 // Generate the token
 var jwt = require('jsonwebtoken');
+// The following values can be retrieved by going tp your App Store Connect Account > Users and Access > Keys > App Store Connect API
 ISSUER_ID =
 KEY_ID = 
 expiration = Math.floor(Date.now() / 1000) + (10 * 60)
